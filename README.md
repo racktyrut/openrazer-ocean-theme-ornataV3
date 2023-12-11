@@ -32,11 +32,15 @@ The color are saved into constants as the fading time (when a key is released)
 
 To run this code it is necessary to run the openrazer daemon as root (not secure) :
 
-  $ sudo openrazer-daemon --as-root
+```shell
+$ sudo openrazer-daemon --as-root
+```
 
 And then :
 
-  $ sudo python3 ocean.py
+```shell
+$ sudo python3 ocean.py
+```
 
 ## Ends
 
